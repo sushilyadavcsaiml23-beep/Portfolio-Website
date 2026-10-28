@@ -31,6 +31,19 @@ I have modified the GSAP Club plugins using trial versions.
 For official GSAP Club plugins, refer here:  
 https://gsap.com/docs/v3/Installation/
 
+### Contact form email delivery
+
+The contact form sends messages through the Vercel serverless function in `api/contact.js` and the Resend API. Before deploying:
+
+1. Create a Resend API key and verify the domain used for the sender address.
+2. Add these environment variables to the Vercel project and to a local `.env.local` file when testing with `npm run dev`:
+   - `RESEND_API_KEY`: the Resend API key (keep it server-side; do not use a `VITE_` prefix).
+   - `CONTACT_FROM_EMAIL`: a sender address on the verified domain, such as `Portfolio <hello@example.com>`.
+   - `CONTACT_TO_EMAIL`: the inbox that should receive contact messages.
+3. Redeploy the project after setting the variables.
+
+Without these settings, the API returns a configuration error and does not send a message.
+
 ---
 
 ## ⚙️ Tech Stack
@@ -62,4 +75,3 @@ Any usage, extraction, or redistribution of that avatar from my live website is 
 This project is licensed under the Personal Portfolio License (PPL) v1.0.
 
 See the LICENSE file for full details
-

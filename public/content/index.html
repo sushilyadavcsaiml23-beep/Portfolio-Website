@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanisha Ali Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section navbar -->
+    <header class="header">
+        <a href="#" class="logo">Tanisha Ali</a>
+        <i class='bx bx-menu' id="menu-icon" onclick="toggleBlur()"></i>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="#" onclick="scrollToSection('about-me')">About</a>
+            <a href="#" onclick="scrollToSection('experience')">Experience</a>
+            <a href="#" onclick="scrollToSection('projects')">Projects</a>
+            <a href="#" onclick="scrollToSection('skills')">Skills</a>
+            <a href="#" onclick="scrollToSection('certificates')">Certificates</a>
+            <a href="#" onclick="scrollToSection('contact')">Contact</a>
+            <a href="./Tanisha Ali canva resume.pdf" download="Tanisha Ali canva resume.pdf">Download CV</a>
+        </nav>
+    </header>
+    <!-- About me -->1
+    <div class="content-section about-me" id="about-me">
+        <div class="col-md-12 text-center" style="text-align: center;">
+            <h3 class="animate-charcter" style="text-align: center;">ABOUT ME</h3>
+        </div>
+        <br>
+            <h3>Driven Frontend Developer: Crafting Digital Experiences with Dedication</h3>
+            <p style="opacity: 0.8;">
+                As a passionate BTech CSE student at Meghnad Saha Institute of Technology, I am dedicated to honing my skills in frontend development and expanding my knowledge of programming languages. Proficient in HTML, CSS, and JavaScript, I am actively engaged in mastering these technologies to craft dynamic and user-friendly web experiences. Additionally, my foundation in C, C++ and Java programming languages adds depth to my technical expertise, allowing me to approach challenges with a versatile perspective. Beyond coding, I am exploring the realm of video editing, leveraging my creativity to design captivating thumbnails for my YouTube videos. With a keen eye for detail and a drive for continuous learning, I am committed to pushing the boundaries of innovation in the ever-evolving field of technology.
+            </p>
+    </div>
+    <!-- Experience -->
+    <div class="experience" id="experience">
+        <div class="col-md-12 text-center" style="text-align: center;">
+            <h3 class="animate-charcter" style="text-align: center;">Experience</h3>
+        </div>
+        <div class="timeline">
+            <div class="exp-container left-container">
+                <img src="internpe logo.jpg" alt="">
+                <div class="text-box glass">
+                    <h2>InternPe</h2>
+                    <small>8th July 2024 - 4th Aug 2024</small>
+                    <p>
+                        Web Development Internship
+                    </p>
+                    <a href="https://media.licdn.com/dms/image/D562DAQHL5s9ek32KOA/profile-treasury-image-shrink_1280_1280/0/1720254523229?e=1721034000&v=beta&t=DWcTK0Wm3OQ93X_eBClX3MNyuFHvp2KwCen8oGl9q58">Offer letter <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i></a>
+                    <a href="https://media.licdn.com/dms/image/D562DAQGwjrbo3qjojQ/profile-treasury-image-shrink_8192_8192/0/1722781618376?e=1723824000&v=beta&t=kLYjrUM1NdHTyRZqffljpUIq2sOUboeLlTHvLoUM0as">Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i></a>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+            <div class="exp-container right-container">
+                <img src="codsoft logo.jpeg" alt="">
+                <div class="text-box glass">
+                    <h2>CodSoft</h2>
+                    <small>5th July 2024 - 5th Aug 2024</small>
+                    <p>
+                        Web Development Internship
+                    </p>
+                    <a href="https://media.licdn.com/dms/image/D562DAQEuGurSjkhjHA/profile-treasury-image-shrink_1920_1920/0/1720192489046?e=1721034000&v=beta&t=Y2e4qzun5Lt7pr4lbjDkOoPigmavbdoEnTsdaYg7aE0">Offer letter <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i></a>
+                    <a href="https://media.licdn.com/dms/image/D562DAQEuGurSjkhjHA/profile-treasury-image-shrink_1920_1920/0/1720192489046?e=1721034000&v=beta&t=Y2e4qzun5Lt7pr4lbjDkOoPigmavbdoEnTsdaYg7aE0">Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i></a>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div class="projects" id="projects">
+        <div class="col-md-12 text-center" style="text-align: center;">
+            <h3 class="animate-charcter" style="text-align: center;">My Projects</h3>
+        </div>
+        <div class="cards-container">
+            <!-- 1.1 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/to-do-list/" class="card-picture">
+                    <img src="todo list.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                   Todo List App 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/to-do-list/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/to-do-list/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                    <div class="icon glass js">
+                        <i class="fa-brands fa-js fa-fade fa-xl" style="color: #ffc800;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <!-- 1.2 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/connect-four/" class="card-picture">
+                    <img src="connect 4.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Connect 4 Game 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/connect-four/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/connect-four/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                    <div class="icon glass js">
+                        <i class="fa-brands fa-js fa-fade fa-xl" style="color: #ffc800;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <!-- 1.3 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/enjoy-ecommerce-website/" class="card-picture">
+                    <img src="ecommerce.jpeg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Ecommerce Shopping website 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/enjoy-ecommerce-website/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/enjoy-ecommerce-website/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                    <div class="icon glass js">
+                        <i class="fa-brands fa-js fa-fade fa-xl" style="color: #ffc800;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+                        <!-- 1.4 -->
+                        <div class="card glass">
+                            <a href="https://tanisha971.github.io/landing-page/" class="card-picture">
+                                <img src="landing pg.jpg" alt="" class="card-img">
+                            </a>    
+                            <p class="card-title">
+                                Landing Page - Movie website
+                                <br> 
+                                <br>
+                            </p>
+                            <div class="skill-icons">
+                                <div class="icon glass download">
+                                    <a href="https://tanisha971.github.io/landing-page/">
+                                        <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                                    </a>
+                                </div>
+                                <div class="icon glass github">
+                                    <a href="https://github.com/tanisha971/landing-page/">
+                                        <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                                    </a>
+                                </div>
+                                <div class="icon glass html">
+                                    <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                                </div>
+                                <div class="icon glass css">
+                                    <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                                </div>
+                                <div class="icon glass js">
+                                    <i class="fa-brands fa-js fa-fade fa-xl" style="color: #ffc800;"></i>
+                                </div>
+                            </div>
+                            <br><br><br><br>
+                        </div>
+            <!-- 1 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/simon-say-game/" class="card-picture">
+                    <img src="simon say game.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Simon Say Game 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/simon-say-game/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/simon-say-game/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                    <div class="icon glass js">
+                        <i class="fa-brands fa-js fa-fade fa-xl" style="color: #ffc800;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <!-- 2 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/spotify/" class="card-picture">
+                    <img src="spot image.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Spotify Clone 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/spotify/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/spotify/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <!-- 3 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/portfolio/" class="card-picture">
+                    <img src="old portfolio img.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Portfolio website 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/portfolio/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/portfolio/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <!-- 4 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/craft/" class="card-picture">
+                    <img src="craft.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Codecraft 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/craft/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/craft/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <!-- 5 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/calculator/" class="card-picture">
+                    <img src="calulator img.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Calculator
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/calculator/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/calculator/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                    <div class="icon glass js">
+                        <i class="fa-brands fa-js fa-fade fa-xl" style="color: #ffc800;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <!-- 6 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/photo/" class="card-picture">
+                    <img src="gallery.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Photography page 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/photo/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/photo/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <!-- 7 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/pet/" class="card-picture">
+                    <img src="pet.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Pet Adoption page 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/pet/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/pet/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <!-- 8 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/pricing/" class="card-picture">
+                    <img src="price.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Pricing page 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/pricing/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/pricing/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                    <div class="icon glass js">
+                        <i class="fa-brands fa-bootstrap fa-fade fa-xl" style="color: rgb(128, 99, 215);"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <!-- 9 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/sign/" class="card-picture">
+                    <img src="login page img.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Login page 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/sign/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/sign/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div> 
+            <!-- 10 -->
+            <div class="card glass">
+                <a href="https://tanisha971.github.io/doraemon/" class="card-picture">
+                    <img src="dora.jpg" alt="" class="card-img">
+                </a>    
+                <p class="card-title">
+                    Doraemon 
+                    <br> 
+                    <br>
+                </p>
+                <div class="skill-icons">
+                    <div class="icon glass download">
+                        <a href="https://tanisha971.github.io/doraemon/">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass github">
+                        <a href="https://github.com/tanisha971/doraemon/">
+                            <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                        </a>
+                    </div>
+                    <div class="icon glass html">
+                        <i class="fa-brands fa-html5 fa-fade fa-xl" style="color: #ff621f;"></i>
+                    </div>
+                    <div class="icon glass css">
+                        <i class="fa-brands fa-css3-alt fa-fade fa-xl" style="color: #2da2fb;"></i>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+                <!-- 11 -->
+                <div class="card glass">
+                    <a href="https://github.com/tanisha971/report/" class="card-picture">
+                        <img src="report.jpg" alt="" class="card-img">
+                    </a>    
+                    <p class="card-title">
+                        Report Card Generator 
+                        <br> 
+                        <br>
+                    </p>
+                    <div class="skill-icons">
+                        <div class="icon glass github">
+                            <a href="https://github.com/tanisha971/report/">
+                                <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                            </a>
+                        </div>
+                        <div class="icon glass html">
+                            <i class="fa-solid fa-copyright fa-fade fa-xl" style="color: #006bbd;"></i>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                </div>
+                <!-- 12 -->
+                <div class="card glass">
+                    <a href="https://github.com/tanisha971/virtual/" class="card-picture">
+                        <img src="virtual.png" alt="" class="card-img">
+                    </a>    
+                    <p class="card-title">
+                       Virtual Cricket Game 
+                        <br> 
+                        <br>
+                    </p>
+                    <div class="skill-icons">
+                        <div class="icon glass github">
+                            <a href="https://github.com/tanisha971/virtual/">
+                                <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                            </a>
+                        </div>
+                        <div class="icon glass html" style="color: #1f6df4;">
+                            <i class="fa-solid fa-c fa-fade fa-lg" style="color: #1f6df4;"></i>++
+                        </div>
+                        
+                    </div>
+                    <br><br><br><br>
+                </div>   
+                <!-- 13 -->
+                <div class="card glass">
+                    <a href="https://github.com/tanisha971/Gully/" class="card-picture">
+                        <img src="gully.png" alt="" class="card-img">
+                    </a>    
+                    <p class="card-title">
+                       Gully Cricket Game 
+                        <br> 
+                        <br>
+                    </p>
+                    <div class="skill-icons">
+                        <div class="icon glass github">
+                            <a href="https://github.com/tanisha971/Gully/">
+                                <i class="fa-brands fa-github fa-fade fa-xl" style="color: #fff;"></i>
+                            </a>
+                        </div>
+                        <div class="icon glass html" style="color: #1f6df4;">
+                            <i class="fa-solid fa-c fa-fade fa-lg" style="color: #1f6df4;"></i>++
+                        </div>
+                        
+                    </div>
+                    <br><br><br><br>
+                </div> 
+            </div>
+        </div>
+    <!-- Skills -->
+    <div class="skills" id="skills">
+        <div class="col-md-12 text-center" style="text-align: center;">
+            <h3 class="animate-charcter" style="text-align: center;">Skills</h3>
+        </div>
+        <br><br>
+        <div class="skills-container">
+            <div class="skill-divs">
+                <img src="html.png" alt="Skill 1">
+                <div class="progress-bar">90%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="css.png" alt="Skill 2">
+                <div class="progress-bar">80%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="js.png" alt="Skill 2">
+                <div class="progress-bar">50%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="bootstrap.png" alt="Skill 2">
+                <div class="progress-bar">80%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="react.png" alt="Skill 2">
+                <div class="progress-bar">50%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="node.png" alt="Skill 2">
+                <div class="progress-bar">50%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="mongodb img.png" alt="Skill 2">
+                <div class="progress-bar">20%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="c programming img.png" alt="Skill 2">
+                <div class="progress-bar">70%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="c++ img.png" alt="Skill 2">
+                <div class="progress-bar">50%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="java img.png" alt="Skill 2">
+                <div class="progress-bar">40%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="git img.png" alt="Skill 2">
+                <div class="progress-bar">50%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="figma.png" alt="Skill 2">
+                <div class="progress-bar">40%</div>
+            </div>
+            <div class="skill-divs">
+                <img src="tailwind css.png" alt="Skill 2">
+                <div class="progress-bar">50%</div>
+            </div>
+        </div>
+    </div>
+    <!-- Certificates -->
+    <div class="certificates" id="certificates">
+        <div class="col-md-12 text-center" style="text-align: center;">
+            <h3 class="animate-charcter" style="text-align: center;">Certificates</h3>
+        </div>
+        <div class="cards-container">
+            <!-- 1 -->
+            <div class="card glass">
+                <a href="./SIH Internal hackathon certificate_page-0001.jpg" download="SIH Internal hackathon certificate_page-0001.jpg" class="card-picture">
+                    <img src="SIH Internal hackathon certificate_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">SIH Internal Hackathon &nbsp; <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div> 
+            <!-- 2 -->
+            <div class="card glass">
+                <a href="./Programming with C and C++ Training(with marks) - Certificate of Completion-Tanisha Ali_page-0001.jpg" download="Programming with C and C++ Training(with marks) - Certificate of Completion-Tanisha Ali_page-0001.jpg" class="card-picture">
+                    <img src="Programming with C and C++ Training(with marks) - Certificate of Completion-Tanisha Ali_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">Programming with C and C++ &nbsp;<i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div>
+            <!-- 3 -->
+            <div class="card glass">
+                <a href="./i1.jpg" download="i1.jpg" class="card-picture">
+                    <img src="i1.jpg" alt="" class="card-img">
+                    <p class="card-title">Innovate 2.0 &nbsp;<i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>                
+            </div>
+            <!-- 4 -->
+            <div class="card glass">
+                <a href="./Tanisha Ali msit Paridhi Certififcate.jpg" download="Tanisha Ali msit Paridhi Certififcate.jpg" class="card-picture">
+                    <img src="Tanisha Ali msit Paridhi Certififcate.jpg" alt="" class="card-img">
+                    <p class="card-title">Paridhi Tech fest &nbsp; <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div>
+            <!-- 5 -->
+            <div class="card glass">
+                <a href="./Tanisha Ali Internship & Job Preparation Training - Certificate of Completion (with marks)_page-0001.jpg" download="Tanisha Ali Internship & Job Preparation Training - Certificate of Completion (with marks)_page-0001.jpg" class="card-picture">
+                    <img src="Tanisha Ali Internship & Job Preparation Training - Certificate of Completion (with marks)_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">Internship & Job Preparation Training &nbsp; <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div>
+            <!-- 6 -->
+            <div class="card glass">
+                <a href="./GDSC_CRT_Tanisha Ali_page-0001.jpg" download="GDSC_CRT_Tanisha Ali_page-0001.jpg" class="card-picture">
+                    <img src="GDSC_CRT_Tanisha Ali_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">Webinar on GDSC <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div>
+            <!-- 7 -->
+            <div class="card glass">
+                <a href="./Tanisha Ali CODE CRAFT 2.0 CERTIFICATE_page-0001.jpg" download="Tanisha Ali CODE CRAFT 2.0 CERTIFICATE_page-0001.jpg" class="card-picture">
+                    <img src="Tanisha Ali CODE CRAFT 2.0 CERTIFICATE_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">CODE CRAFT 2.0 <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div>
+            <!-- 8 -->
+            <div class="card glass">
+                <a href="./Tanisha Ali JAVA Workshop Certificate_page-0001.jpg" download="Tanisha Ali JAVA Workshop Certificate_page-0001.jpg" class="card-picture">
+                    <img src="Tanisha Ali JAVA Workshop Certificate_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">JAVA Workshop <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div>
+            <!-- 9 -->
+            <div class="card glass">
+                <a href="./TANISHA ALI Python workshop Organiser Certificate_page-0001.jpg" download="TANISHA ALI Python workshop Organiser Certificate_page-0001.jpg" class="card-picture">
+                    <img src="TANISHA ALI Python workshop Organiser Certificate_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">Python workshop Organiser <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div> 
+            <!-- 10 -->
+            <div class="card glass">
+                <a href="./TANISHA ALI Python Workshop Certificate_page-0001.jpg" download="TANISHA ALI Python Workshop Certificate_page-0001.jpg" class="card-picture">
+                    <img src="TANISHA ALI Python Workshop Certificate_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">Python Workshop <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div>
+            <!-- 11 -->
+            <div class="card glass">
+                <a href="./Tanisha Ali Backend workshop Certificate_page-0001.jpg" download="Tanisha Ali Backend workshop Certificate_page-0001.jpg" class="card-picture">
+                    <img src="Tanisha Ali Backend workshop Certificate_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">Backend workshop <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div>
+            <!-- 12 -->
+            <div class="card glass">
+                <a href="./Tanisha Ali Enterpreneurship Seminar Certificate_page-0001.jpg" download="Tanisha Ali Enterpreneurship Seminar Certificate_page-0001.jpg" class="card-picture">
+                    <img src="Tanisha Ali Enterpreneurship Seminar Certificate_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">Enterpreneurship Seminar <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div>
+            <!-- 13 -->
+            <div class="card glass">
+                <a href="Tanisha Ali Abroad Study Seminar Certificate_page-0001.jpg" download="Tanisha Ali Abroad Study Seminar Certificate_page-0001.jpg" class="card-picture">
+                    <img src="Tanisha Ali Abroad Study Seminar Certificate_page-0001.jpg" alt="" class="card-img">
+                    <p class="card-title">Abroad Study Seminar <i class="fa-solid fa-arrow-up-right-from-square fa-fade fa-xl" style="color: #fff;"></i> </p>
+                </a>
+            </div> 
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="contact" id="contact">
+            <div id="page3">
+                <h1 style="text-align: center; margin-top: 50px; font-size: 1000;">Contact Me</h1>
+                <div class="part1">
+                    <div id="particles-js"></div>    
+                    <div class="footer get-in">                       
+                        <img src="image-removebg-preview (1).png">
+                    </div>
+                    <div class="footer links">
+                        
+                        <h3>Links</h3>
+                        <br><br>
+                        <a href="../index.html">Home</a><br><br>
+                        <a href="#" onclick="scrollToSection('about-me')">About</a><br><br>
+                        <a href="#" onclick="scrollToSection('experience')">Experience</a><br><br>
+                        <a href="#" onclick="scrollToSection('projects')">Projects</a><br><br>
+                        <a href="#" onclick="scrollToSection('skills')">Skills</a><br><br>
+                        <a href="#" onclick="scrollToSection('certificates')">Certificates</a><br><br>
+                        <a href="#" onclick="scrollToSection('contact')">Contact</a><br>   
+                    </div>
+                    <div class="footer" id="form">
+                        <h3>Get in Touch</h3>
+                        <form id="myForm" onsubmit="reset();">
+                            <label for="name">Name:</label><br><br>
+                            <input class="glass" id="name" type="text" name="name" required/><br>
+                            <label for="email">Email:</label><br><br>
+                            <input class="glass" id="email" type="email" name="email" required/><br>
+                            <label for="message">Message:<br></label><br>
+                            <textarea class="glass" name="message" id="message" cols="30" rows="5" required ></textarea>
+                            <button type="submit" class="com" onclick="sendEmail()">Send Message</button>
+                        </form><br>
+                        <div class="footer-icons">
+                            <a href="https://www.youtube.com/@tanishaali8689/"><img style="height: 28px; width: 28px;" src="youtube img.png" alt=""></a>
+                            <a href="https://www.instagram.com/tanishaali751/"><img src="insta img.png"></a>
+                            <a href="https://x.com/AliTanisha16460/"><img style="height: 33px; width: 33px;" src="twitter img footer.png"></a>
+                            <a href="https://www.linkedin.com/in/tanisha-ali-727b02277/"><img style="height: 35px; width: 35px;" src="linkedin img.png" alt=""></a>
+                            <a href="https://github.com/tanisha971/"><img style="height: 35px; width: 35px;" src="github footer img.png"></a>
+                        </div>    
+                    </div>
+                </div>
+                
+                
+                <!-- <hr class="animated-hr" style="width: 80%; text-align: center; margin-bottom: 30px;">
+                 -->
+                
+            </div>
+            <p style="opacity: 0.5; text-align: center">Copyright © 2024 Tanisha Ali</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="script.js"></script>
+    <script>
+        function sendEmail() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            
+            var mailtoLink = 'mailto:tanishaali89@gmail.com' +
+                            '?subject=' + encodeURIComponent('Message from ' + name) +
+                            '&body=' + encodeURIComponent(message + '\n\nFrom: ' + email);
+            
+            window.location.href = mailtoLink;
+        }
+
+    </script>
+</body>
+</html>
